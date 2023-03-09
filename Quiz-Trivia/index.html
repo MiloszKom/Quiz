@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="quizzlet">Quizzlet</h1>
+        <label for="Qnumber" class="input-label1">Number of Questions:</label>
+        <input type="number" min="1" max="20" id="Qnumber" name="Qnumber" value="5"/>
+
+        <label for="Qcategory" class="input-label2">Select Category:</label>
+
+        <select name="Qcategory" id="Qcategory">
+            <option value="default">Any Category</option>
+            <option value="9">General Knowledge</option>
+            <option value="10">Entertainment: Books</option>
+            <option value="11">Entertainment: Film</option>
+            <option value="12">Entertainment: Music</option>
+            <option value="13">Entertainment: Musical  & Theaters</option>
+            <option value="14">Entertainment: Television</option>
+            <option value="15">Entertainment: Video Games</option>
+            <option value="16">Entertainment: Board Games</option>
+            <option value="29">Entertaiment: Comics</option>
+            <option value="31">Entertaiment: Japanese Anime & Manga</option>
+            <option value="32">Entertaiment: Cartoon & Animations</option>
+            <option value="17">Science & Nature</option>
+            <option value="18">Science: Computers</option>
+            <option value="19">Science: Mathematics</option>
+            <option value="30">Science: Gadgets</option>
+            <option value="20">Mythology</option>
+            <option value="21">Sports</option>
+            <option value="22">Geography</option>
+            <option value="23">History</option>
+            <option value="24">Politics</option>
+            <option value="25">Art</option>
+            <option value="26">Celebrities</option>
+            <option value="27">Animals</option>
+            <option value="28">Vehicles</option>
+        </select>
+
+        <label for="Qdifficulty" class="input-label3">Select Difficulty:</label>
+
+        <select name="Qdifficulty" id="Qdifficulty">
+            <option value="default">Any Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <div class="btn-start-container">
+            <button class="btn-start" data-handle="start">Start quiz</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
